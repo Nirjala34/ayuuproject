@@ -1,0 +1,44 @@
+div{
+   height: 100px;
+   width: 100px;
+   background-color: aquamarine;
+   border: 2px solid black; 
+   /*transform: rotate(45deg);  yo chai maile comment gardeko 
+   kina bane tala scale use garera*/
+   position: absolute;
+   top:100px;
+   left: 100px;
+   /* another is transform property which means
+rorate  tranform: rotate (45) kati degreev rotate garniho*/
+   
+}
+/* changege while hovering */
+div:hover{
+ background-color: red;
+ color: white;
+transition-duration: 2s;
+ font-size: 20px;
+ /* transition timing function are 
+ easein, linear, cubic and steps or you can serach on internet */
+ /* transition-timing-function: steps(3) garda step by step badcha; */
+ /* transition-delay: 1s;  */
+  /* kunai pani kura garna 1s dhilo */
+ transition-timing-function: linear;
+ transform: scale(2);
+ /* scaleX(2) garyo bhane width bandai jancha hover garda
+ ani scaleY(2) garyo bhane height natra normal scale(2) gardani huncha */
+ /* transform: scale(2,3) garda width height duita change garna milcha */
+ /* trnsform scale baneko sano thulo banauni ani  */
+   /* ani arko sacle(1,3) baneko agadiko width
+   badauni ya gatauni ani lastko heightlai maintain garni */
+ /* yo transform harun hamle hover garda garcham */
+
+ 
+ 
+}
+/* active baneko click garda change huni */
+
+div:active{
+    background-color: bisque;
+    
+}

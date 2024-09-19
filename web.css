@@ -1,0 +1,264 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+    /* border-box means  measure space  we can write this for good starter*/
+}
+.navbar{
+height: 60px;
+background-color: #0f1111;
+color: white;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+/* nav barko sabai icon  center ma launab */
+/* malai sabai nav barko icon row ma launa display flex garnu parca */
+}
+.nav-logo{
+    height:50px;
+    width: 100px;
+   
+}
+
+.logo{
+    /* logo web ma aunako lagi outer div ma height width halnu parca */
+    background-image: url("download (1).jpg");
+    background-size: cover;
+    height:50px;
+    width: 100px;
+    
+}
+.border{
+    border: 2px solid transparent;
+    /* border white rakhnu  banda agadi 
+    border ma tranparency rakhnu parca paila */
+}
+.border:hover{
+    border:  2px solid white;
+
+}
+.paragraph{
+    font-size: 12px;
+    color: rgb(173, 169, 169);
+    margin-left: 15px;
+}
+.para{
+    font-size: 16px;
+    margin-left: 3px;
+    
+}
+.addicon{
+    display: flex;
+   
+
+}
+.search{
+    display: flex;
+    margin-left: 15px;
+    justify-content: space-evenly;
+    width: 620px;
+    height: 40px;
+    background-color: antiquewhite;
+    border-radius: 4px;
+}
+.search:hover{
+   border:3px solid orange;
+}
+
+.search-select{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border:none;
+
+}
+.searchbar{
+    width:100%;
+    font-size: 15px;
+    border:none
+}
+.searchicon{
+    width:45px;
+    display: flex;
+ justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  color: black;
+ background-color: rgb(244, 179, 60);
+  border-top-right-radius: 4px ;
+  border-bottom-right-radius: 4px;
+}
+span{
+    font-size: 10px;
+}
+.nav-second{
+font-size: 12px;
+font-weight: bolder;
+}
+.cart i{
+    /* if we want to select specific class we can do this */
+    font-size: 20px;
+}
+.cart{
+    font-size: 12px;
+    font-weight: bolder;
+}
+.panel{
+    height:39px;
+   
+    background-color:#222f3d ;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    align-items: center;
+}
+.panel-ops p{
+    /* this is for paragraph */
+    display: inline;
+    margin: 15px;
+   
+}
+.panel-ops{
+    width: 70%;
+    font-size:14px ;
+  
+}
+.panel-details{
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+.hero{
+    background-image: url(71C-ztbXMCL._SX3000_.jpg);
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    /* yo align items flex end garda hamile jun parent honi
+    browser bata garniho */
+   
+}
+.hero-msg{
+    background-color: whitesmoke;
+    color: black;
+    height: 40px;
+    width: 80%;
+    font-size: 12px;
+    display: flex;
+    /*vertically center me lyauna align items center  */
+    align-items: center;
+    /* horizontolly centerma lyauna justify content center  */
+    justify-content: center;
+   margin-bottom: 100px;
+    
+    
+}
+a{
+    color:#007185 ;
+}
+/* shop esection */
+.shop-section{
+display: flex;
+
+justify-content: space-evenly;
+background-image:url(istockphoto-1150480216-612x612.jpg);
+}
+.box{
+height: 350px;
+width: 21%;
+border: 2px solid black;
+background-color: white;
+padding: 20px 0px 15px;
+/* top right bottom left */
+margin-top: 15px ;
+}
+.box-image{
+  height:400px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top: 15px;
+ 
+
+}
+.box-con{
+    margin-left: 10px;
+    margin-right: 10px;
+   
+}
+.box-con p{
+    color: #007185;
+    margin-top: -180px;
+   
+   
+}
+.foot-panel1{
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+}
+footer{
+    margin-top: 15px;
+}
+.footpanel2{
+    background-color: #222f3d;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    
+    /* row ma chaiyiecha bhne contentharu parent container ko display flex garni */
+}
+ul{
+ margin-top: 20px;
+}
+ul a{ 
+    display: block;
+    font-size: 10px;
+    color: aliceblue;
+   margin-top: 10px;
+   /* anchor ko bichma space deko */
+}
+
+.footpanel-3{
+    border-top:0.5px solid white;
+    background-color: #222f3d;
+    color: white;
+    /* to give a border line xutai we need */
+    height:70px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    
+}
+.logo2{
+    background-image: url("download (1).jpg");
+    background-size: cover;
+    height:50px;
+    width: 100px;
+    
+}
+.footpanel-4{
+    background-color: #222f3d;
+    height: 80px;
+    color: whitesmoke;
+   text-align: center;
+}
+.pages{
+    font-size: 10px;
+    text-align: center;
+    padding-top: 25px  ;
+
+}
+.copyright{
+     padding-top: 5px;
+    font-size: 10px;
+    text-align: center;
+}

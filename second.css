@@ -1,0 +1,43 @@
+body{
+    text-align: center;
+}
+div{
+    height:100px;
+    width: 100px;
+    border: 2px solid black;
+    display: inline-block;
+
+}
+#container{
+    height: 400px;
+    width: 800px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-content: center;
+
+}
+#box1{
+    background-color: aqua;
+    
+    /* if we want to double grow any element than other
+    element we use flexgrow and to shrink any element double
+    than others we use flex shrink*/
+    }
+    #box2{
+        background-color: blanchedalmond;
+        flex-grow: 3;
+    
+    
+    }
+    #box3{
+        background-color: darkkhaki;
+       flex-shrink: 2;
+    }
+    #box4{
+        background-color: pink;
+    }
+    #box5{
+        background-color: aquamarine;
+    }

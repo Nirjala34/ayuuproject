@@ -1,0 +1,17 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+    border: 2px solid black;
+}
+div:hover{
+    
+ background-color: red;
+ color: white;
+  transition-duration: 2s;
+transform: translateX(100px);
+    /*skew is another transfer prop which make any element or boc parallelogram
+      */
+/* transform: skew(30deg);  */
+}  
+

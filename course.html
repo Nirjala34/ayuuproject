@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University desgin tutorial</title>
+    <link rel="stylesheet" href="website.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+    <section class="sub-course">
+       <nav>
+        <a href="website.html"><img src="download.png"  ></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+            <!-- copying icon from font awesome -->
+           <ul>
+            <li><a href="website.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="course.html">COURSE</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+           </ul> 
+        </div>
+        <i class="fa fa-bars"  onclick="showMenu()" ></i>
+        <!-- from fontawe. -->
+       </nav>
+       <h1>Our Courses</h1>
+       
+    </section>
+
+    <!-- Course -->
+
+    <section class="offer">
+        <h1>Courses We Offer</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
+    <div class="row">
+        <div class="course-col">
+          <h3>Degree</h3>  
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat, voluptatibus suscipit recusandae dolorem blanditiis excepturi vel sint eligendi voluptate laudantium sit numquam?</p>
+        </div>
+        <div class="course-col">
+            <h3>Intermediate</h3>  
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat, voluptatibus suscipit recusandae dolorem blanditiis excepturi vel sint eligendi voluptate laudantium sit tnumquam?</p>
+          </div>
+          <div class="course-col">
+            <h3>Post Graduation</h3>  
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat, voluptatibus suscipit recusandae dolorem blanditiis excepturi vel sint eligendi voluptate laudantiuteempora numquam?</p>
+          </div>
+    </div>
+    </section>
+
+<!--  Facilities-->
+<section class="facilities">
+    <h1>Our Facilities</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+
+    <div class="row">
+        <div class="facilities-col">
+            <img src="photo-1521587760476-6c12a4b040da.avif" >
+            <h3>World Class Library</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat, voluptatibus suscipit recusandae dolorem blanditiis excepturi vel sint eligendi voluptate laudantium sit tnumquam?</p>
+        </div>
+        <div class="facilities-col">
+            <img src="photo-1518614368389-5160c0b0de72.avif" class="basket" >
+            <h3>Largest Playground</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat, voluptatibus suscipit recusandae dolorem blanditiis excepturi vel sint eligendi voluptate laudantium sit tnumquam?</p>
+        </div>
+        <div class="facilities-col">
+            <img src="photo-1723532623416-89c7bdcce044.avif" >
+            <h3>Tasty and Healthy Food</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat, voluptatibus suscipit recusandae dolorem blanditiis excepturi vel sint eligendi voluptate laudantium sit tnumquam?</p>
+        </div>
+    </div>
+
+</section>
+
+    
+
+<!-- footer -->
+ <section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam esse, est, numquam iste ullam blanditiis iure nobis molestias veniam facilis ?<br> Molestiae blanditiis, beatae laboriosam culpa animi nihil tempora.</p>
+    <div class="icons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-linkedin"></i>
+
+    </div>
+    <p>Made with <i class="fa-solid fa-heart"></i> By Easy Tutorials</p>
+
+</section>
+
+
+<!-- javascript for toogle menu -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right="0";
+            // adding style to right
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+    </script> 
+
+</body>
+</html>

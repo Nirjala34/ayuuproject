@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.travel{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(photo-1523050854058-8df90110c9f1.avif);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:10px;
+}
+nav h1{
+    font-size: 22px;
+    color: white;
+    margin-left: 80px;
+  
+}
+.nav-links{
+    flex: 1;
+    text-align: center;
+    margin-top: 10px;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    position: relative;
+    padding: 10px 20px;
+}
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background-color: papayawhip;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+.hero-btn{
+    text-decoration: none;
+    border: 1px solid transparent;
+    font-size: 13px;
+    padding: 10px 10px;
+    background-color: rgb(156, 103, 91);
+    cursor: pointer;
+    transform: translateX(-150%);
+    border-radius: 5px;
+}
+.hero-btn:hover{
+    background-color: rgb(211, 72, 72);
+    transition: 0.5s;
+}
+
+.text-box{
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.text-box h1{
+    font-size: 60px;
+    margin-bottom: 20px;
+
+}
+.text-box p{
+    font-size: 20px;
+    margin: 10px 0 10px;
+}
+.hero-btns{
+    text-decoration: none;
+    border: 1px solid transparent;
+    font-size: 16px;
+    padding: 10px 20px;
+    background-color: rgb(222, 82, 82);
+    cursor: pointer;
+    transform: translateX(-150%);
+    overflow: hidden;
+}
+.hero-btns:hover{
+    background-color: rgb(211, 36, 36);
+    transition: 0.5s;
+}
+
+.hero-btns:hover:active{
+    background-color: rgb(255, 102, 0);
+    transition: 0.5s;
+}
